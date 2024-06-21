@@ -1,1 +1,20 @@
 <p>feedback works!</p>
+<div class="form">
+  <div class="formdiv">
+    <form #user="ngForm" (submit)="submitdata(user)">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Anime Category </label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="category" ngModel required="">
+      </div>
+      <!-- <div *ngIf="user.controls.category.touched && user.controls.category?.invalid" class="text-danger">
+        Please enter a valid mobile number.
+      </div> -->
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label"> Anime Name </label>
+        <input type="text" class="form-control" id="exampleInputPassword1" name="Anime" ngModel >
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>

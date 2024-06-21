@@ -12,6 +12,8 @@ span {
 p {
   font-size: 17px;
   font-weight: 700;
+  margin: 0  !important;
+  padding-bottom: 10px;
   
 }
 

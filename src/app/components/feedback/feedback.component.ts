@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class FeedbackComponent {
 
+  submitdata(f:any){
+   console.log(f)
+  }
+ 
 }

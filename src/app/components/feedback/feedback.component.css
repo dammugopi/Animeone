@@ -1,0 +1,22 @@
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  top: 100px;
+}
+.formdiv{
+  width: 500px;
+   
+}
+input[type=text]{
+  background: transparent;
+  outline: none !important;
+  border: none;
+  border-bottom: 3px solid black;
+ 
+}
+input{
+  height: 50px;
+  font-size: 30px;
+}
