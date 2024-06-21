@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { Action } from 'rxjs/internal/scheduler/Action';
+ 
 import { ActionComponent } from './components/action/action.component';
 import { RomanceComponent } from './components/romance/romance.component';
 import { SciFiComponent } from './components/sci-fi/sci-fi.component';
-import { errorContext } from 'rxjs/internal/util/errorContext';
 import { ErrorComponent } from './components/error/error.component';
 import { FantacyComponent } from './components/fantacy/fantacy.component';
 import { FeedbackComponent } from './components/feedback/feedback.component';

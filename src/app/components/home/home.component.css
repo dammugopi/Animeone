@@ -1,3 +1,29 @@
+.main{
+  position: relative;
+  height: 70vh;
+  width: 80vw;
+  background: transparent;
+  margin-top: 40px;
+  left: 150px;
+  border-radius: 40px;
+  
+  background-image: url('https://cdn.myanimelist.net/images/about_me/main_visual/5349225-3bd8888a-1b2f-4a11-ab97-16334c09b52f.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: inset 94px -64px 151px 51px rgba(0,0,0,0.86);
+  -moz-box-shadow: inset 94px -64px 151px 51px rgba(0,0,0,0.86);
+  box-shadow: inset 94px -64px 151px 51px rgba(0,0,0,0.86);
+   
+   
+  transition: ease-in-out 1s ;
+}
+.main:hover{
+  box-shadow: none;
+}
+
+ 
+
 .container {
   margin-top: 20px;
   display: grid;

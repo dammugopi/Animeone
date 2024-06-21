@@ -6,14 +6,14 @@
         <label for="exampleInputEmail1" class="form-label">Anime Category </label>
         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="category" ngModel required  #chitti="ngModel" minlength="4">
       </div>
-      <div  class="text-danger fs-4" *ngIf="user.controls['category']?.touched && user.controls['category']?.invalid">
+      <div  class="text-danger fs-5" *ngIf="user.controls['category']?.touched && user.controls['category']?.invalid">
         Please enter a valid category.
       </div>
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label"> Anime Name </label>
         <input type="text" class="form-control" id="exampleInputPassword1" name="Anime" ngModel required >
       </div>
-      <div class='text-danger fs-4' *ngIf="user.controls['Anime']?.touched && user.controls['Anime']?.invalid 
+      <div class='text-danger fs-5' *ngIf="user.controls['Anime']?.touched && user.controls['Anime']?.invalid 
         ">
         Please enter a valid name.
       </div>
