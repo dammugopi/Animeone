@@ -1,6 +1,47 @@
-li > a{
+li , a{
   margin: 0px 10px;
-  color: red;
+  color: rgb(250, 0, 0);
+  padding: 0;
+  background: transparent;
+  font-size: 20px;
+}
+.navbar-toggler{
+  color: rgb(255, 0, 0);
+  background-color: red;
+}
+li{
+   
+  display: inline-block; /* Display inline block */
+  position: relative; /* Set position relative */
+  
+}
+
+li:after {
+  content: ''; /* Add content after the element */
+  position: absolute; /* Position absolute for pseudo-element */
+  width: 100%; /* Full width */
+  transform: scaleX(0); /* Initial scale of 0 for underline effect */
+  height: 2px; /* Height of the underline */
+  bottom: 0; /* Align to bottom */
+  left: 0; /* Align to left */
+  background-color: 
+#000000; /* Background color of the underline */
+  transform-origin: bottom right; /* Set transform origin */
+  transition: transform 0.5s ease-out; /* Transition effect for the underline */
+}
+
+ li:hover:after {
+  transform: scaleX(1); /* Scale the underline on hover */
+  transform-origin: bottom left; /* Set transform origin */
 }
  
+ul{
+  background: transparent;
+}
+nav{
+  background-image: url('https://wallpapercave.com/wp/wp4474569.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
  

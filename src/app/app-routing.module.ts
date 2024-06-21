@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'scifi',component:SciFiComponent},
   { path: 'fantasy',component:FantacyComponent},
   { path: 'feedback',component:FeedbackComponent},
-  
+
   { path:'**',component:ErrorComponent}
 ];
 
